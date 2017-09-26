@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/9/19 9:01:26。
+     1>项目“D:\QtProjects\CidToXML\CidToXML\CidToXML.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2013\install\VC\bin\CL.exe /c /I. /IC:\qt\qt5.7.1\5.7\msvc2013\include /IC:\qt\qt5.7.1\5.7\msvc2013\include\QtWidgets /IC:\qt\qt5.7.1\5.7\msvc2013\include\QtGui /IC:\qt\qt5.7.1\5.7\msvc2013\include\QtANGLE /IC:\qt\qt5.7.1\5.7\msvc2013\include\QtXml /IC:\qt\qt5.7.1\5.7\msvc2013\include\QtCore /Idebug /I"C:\qt\qt5.7.1\5.7\msvc2013\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D CIDTOXML_LIBRARY /D QT_DEPRECATED_WARNINGS /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_CORE_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -w34100 -w34189 -w44996 cidtoxml.cpp scd.cpp scd_communication.cpp scd_datatypetemplates.cpp scd_ied.cpp
+         cidtoxml.cpp
+     1>cidtoxml.cpp(150): warning C4273: “CreateModule”: dll 链接不一致
+                 D:\QtProjects\CidToXML\CidToXML\debug\../include/ICidToData.h(50) : 参见“CreateModule”的前一个定义
+     1>cidtoxml.cpp(149): warning C4100: “pIService”: 未引用的形参
+     1>cidtoxml.cpp(156): warning C4273: “DeleteModule”: dll 链接不一致
+                 D:\QtProjects\CidToXML\CidToXML\debug\../include/ICidToData.h(51) : 参见“DeleteModule”的前一个定义
+         scd.cpp
+         scd_communication.cpp
+         scd_datatypetemplates.cpp
+         scd_ied.cpp
+         正在生成代码...
+     1>d:\qtprojects\cidtoxml\cidtoxml\cidtoxml.cpp(146): warning C4715: “CidToData::InitCfgFile”: 不是所有的控件路径都返回值
+       Link:
+         D:\VS2013\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\CidToXML\\CidToXML.dll" /NOLOGO /LIBPATH:C:\Qt\Qt5.7.1\5.7\msvc2013\lib /LIBPATH:C:\qt\qt5.7.1\5.7\msvc2013\lib C:\Qt\Qt5.7.1\5.7\msvc2013\lib\Qt5Widgetsd.lib C:\Qt\Qt5.7.1\5.7\msvc2013\lib\Qt5Guid.lib C:\Qt\Qt5.7.1\5.7\msvc2013\lib\Qt5Xmld.lib C:\Qt\Qt5.7.1\5.7\msvc2013\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\CidToXML\CidToXML.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Win32\Debug\cidtoxml.obj
+         Win32\Debug\scd.obj
+         Win32\Debug\scd_communication.obj
+         Win32\Debug\scd_datatypetemplates.obj
+         Win32\Debug\scd_ied.obj
+            正在创建库 ..\..\CidToXML\\CidToXML.lib 和对象 ..\..\CidToXML\\CidToXML.exp
+         CidToXML.vcxproj -> D:\QtProjects\CidToXML\CidToXML\..\..\CidToXML\CidToXML.dll
+     1>已完成生成项目“D:\QtProjects\CidToXML\CidToXML\CidToXML.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:40.16
