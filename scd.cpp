@@ -9,7 +9,6 @@
 
 SCD* SCD::instance_ = NULL;
 
-
 SCD::SCD()
 {
 	m_mapIedType['C'] = "1";

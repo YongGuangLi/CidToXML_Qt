@@ -29,8 +29,8 @@ CidToData::~CidToData()
 int CidToData::ConvertScd2Data(std::string csCidFile,std::string csInitFile, std::list<std::string> &lstErrors)
 {     
 	if(!SCD::instance()->init(csCidFile))
-	{ 
-		SCD::instance()->getErrorList(lstErrors);
+    {
+        SCD::instance()->getErrorList(lstErrors);
 		return -1;
 	} 
 	 
@@ -86,7 +86,6 @@ int CidToData::ConvertScd2Data(std::string csCidFile,std::string csInitFile, std
     } 
  
 	SCD::instance()->SetNetworkPoint(mapPointData_);
-
     SCD::instance()->getErrorList(lstErrors);
     SCD::instance()->close_singleton();
 	return 0;
